@@ -1,6 +1,4 @@
-def add(x, y):
-    return x + y
-def subtract(x, y):
+def subtract(x, y):  #I've removed the def add line because It will be simpler typing "num1+num2"
        return x- y
 
 def multiply(x, y):
@@ -8,6 +6,7 @@ def multiply(x, y):
 
 def divide(x, y):
     return x / y
+#This is options for Operations.
 
 
 print("Select Operation")
@@ -15,19 +14,21 @@ print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. divide")
+#This Is showing what kind of arithmatic
 
 while True:
     
     choice = input("Enter choice(1/2/3/4)")
-
+#Takes user's input to determine which operation to use
 
     if choice in ("'1', '2', '3', '4'): "):
-        num1 = float(input("Enter first number: "))
+        num1 = float(input("Enter first number: "))  
         num2 = float(input("Enter second number: "))
+        #This will ask what to numbers to be worked on
 
         if choice == '1':
-            print(num1, "+", num2, "=", add(num1, num2))
-
+             print(num1, "+", num2, "=", num1+num2)
+        #This prints Num1, + and Num2 then prints =, Then prints adds the answer 
         elif choice == '2':
             print(num1, "-", num2, "=", subtract(num1, num2))
 
