@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 
-public class showcontroller : MonoBehaviour
+public class ShowController : MonoBehaviour
 {
     public bool showcontroller = false
 
