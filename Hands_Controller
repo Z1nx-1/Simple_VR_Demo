@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 
-public class ShowController : MonoBehaviour
+public class ShowControllers : MonoBehaviour
 {
-    public bool ShowController = false
+    public bool ShowController = false;
 
     // Update is called once per frame
     void Update()
